@@ -1,12 +1,9 @@
 title: BlackFriday.com.br
-description: >- # Isso aqui vc tem q pedir pro andré!
+description: >- # Isso aqui tem q pedir pro andré!
 baseurl: ""
 url: ""
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-postcss
+# My variables
 
 header_pages:
   - page:
@@ -15,6 +12,14 @@ header_pages:
   - page:
       cta: Blog
       href: /blog
+
+# Configurations
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-postcss 
 
 postcss:
   cache: false
@@ -26,7 +31,11 @@ sass:
 
 exclude:
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - postcss.config.js
+  - tailwind.config.js
+  - package.json
+  - package-lock.json
+
+include: ["node_modules/tailwindcss"]
