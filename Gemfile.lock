@@ -71,7 +71,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
-  jekyll-postcss
+  jekyll-postcss (~> 0.5)
+  jekyll-seo-tag (~> 2.6)
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
