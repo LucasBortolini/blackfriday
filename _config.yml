@@ -1,7 +1,7 @@
 title: BlackFriday.com.br
 description: >- # Isso aqui tem q pedir pro andré!
-baseurl: ""
-url: ""
+baseurl: /BlackFriday
+url: https://lucasbortolini.github.io
 
 # My variables
 
@@ -21,8 +21,9 @@ header_pages:
 theme: minima
 
 plugins:
+  - jekyll-postcss
   - jekyll-seo-tag
-  - jekyll-postcss 
+  - jekyll-sitemap
 
 postcss:
   cache: false
