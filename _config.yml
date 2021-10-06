@@ -16,6 +16,13 @@ header_pages:
       cta: Anuncie
       href: /Anuncie
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+    order:
+      - welcome.md
+
 # Configurations
 
 theme: minima
