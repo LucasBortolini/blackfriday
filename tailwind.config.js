@@ -7,6 +7,14 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
+    colors: {
+      red: '#E31F23',
+      white: '#FFF',
+      black: '#000'
+    }
+  },
+  variants: {
     extend: {},
   },
-  variants: {},}
+  plugins: [],
+}
