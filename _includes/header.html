@@ -1,1 +1,16 @@
-teste
+<header class="bg-black flex align-center justify-between">
+  <div>
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ site.logo | relative_url }}" alt="BlackFriday.com.br" />
+    </a>
+  </div>
+  <div>
+    <ul>
+      {% for item in site.header_pages %}
+        <li>
+          <a href="{{ item.page.href }}">{{ item.page.cta }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>
