@@ -1,16 +1,18 @@
-<header class="bg-black flex align-center justify-between px-8 py-5">
-  <div>
-    <a href="{{ '/' | relative_url }}" class="text-red">
-      <img src="{{ site.logo | relative_url }}" alt="BlackFriday.com.br" />
-    </a>
-  </div>
-  <nav>
-    <ul class="flex list-none">
-      {% for item in site.header_pages %}
-        <li class="ml-6">
+<header class="bg-black">
+  <div class="container mx-auto md:px-24 py-10 flex align-center justify-between">
+    <div>
+      <a href="{{ '/' | relative_url }}" class="text-red">
+        <img src="{{ site.logo | relative_url }}" alt="BlackFriday.com.br" />
+      </a>
+    </div>
+    <nav>
+      <ul class="flex list-none">
+        {% for item in site.header_pages %}
+        <li class="ml-14">
           <a href="{{ item.page.href }}" class="text-red">{{ item.page.cta }}</a>
         </li>
-      {% endfor %}
-    </ul>
-  </nav>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </header>
