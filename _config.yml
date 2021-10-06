@@ -12,6 +12,9 @@ header_pages:
   - page:
       cta: Blog
       href: /blog
+  - page:
+      cta: Anuncie
+      href: /Anuncie
 
 # Configurations
 
