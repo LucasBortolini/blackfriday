@@ -18,8 +18,9 @@ header_pages:
 theme: minima
 
 plugins:
+  - jekyll-postcss
   - jekyll-seo-tag
-  - jekyll-postcss 
+  - jekyll-sitemap
 
 postcss:
   cache: false
