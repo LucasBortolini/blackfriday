@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "AS CINCO MAIORES TENDÊNCIAS DA BLACK FRIDAY 2021"
+image: /assets/images/teste.png
 ---
 
 # Welcome

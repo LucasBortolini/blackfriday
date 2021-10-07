@@ -9,3 +9,4 @@ title: Black Friday
 {% include banner.html %}
 {% include when.html %}
 {% include what.html %}
+{% include blog.html %}
