@@ -2,6 +2,7 @@ title: BlackFriday.com.br
 description: >- # Isso aqui tem q pedir pro andré!
 baseurl: /blackfriday
 url: https://lucasbortolini.github.io
+logo: assets/images/logo.svg
 
 # My variables
 
@@ -15,6 +16,25 @@ header_pages:
   - page:
       cta: Anuncie
       href: /Anuncie
+
+footer:
+  pages:
+    - page:
+        cta: Termos de Uso
+        href: /termos-de-uso
+    - page:
+        cta: Política de Privacidade
+        href: /politica-de-privacidade
+    - page:
+        cta: Perguntas Frequentes
+        href: /perguntas-frequentes
+    - page:
+        cta: Sala de Imprensa
+        href: /sala-de-imprensa
+    - page:
+        cta: Anuncie
+        href: /Anuncie
+  text: O Busca Descontos não vende produtos, é um site gratuito para os internautas. Como um agregador de ofertasnão podemos garantir o preço e a disponibilidade das ofertas. As imagens são meramente ilustrativas. Casohaja diferença de preço ou descrição do produto entre o site do Busca Descontos e o site da loja, a condiçãoválida e praticada será a do site do lojista. Sempre confira o preço e as condições diretamente no site daloja. Veja também as regras de entrega gratuita, parcelamento e política de vendas no site do lojista. Asofertas, condições de venda e preços dos varejistas podem ser alteradas ou interrompidas a qualquer momento,sem aviso prévio. Confira sempre o preço na página do produto da loja direcionada antes de efetuar a compra.A entrega do pedido é condicionada a disponibilidade do estoque do lojista e não está sob o controle dasoperações do buscadescontos.com.br.
 
 collections:
   pages:
@@ -42,11 +62,14 @@ sass:
 
 exclude:
   - .jekyll-cache/
+  - node_modules/
   - Gemfile
   - Gemfile.lock
   - postcss.config.js
   - tailwind.config.js
   - package.json
   - package-lock.json
+
+keep_files: [assets/images]
 
 include: ["node_modules/tailwindcss"]
