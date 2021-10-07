@@ -1,1 +1,23 @@
-<footer></footer>
+<footer class="bg-gray-900 text-gray-100">
+  <div class="container mx-auto md:px-24 pt-14 pb-20 flex flex-col items-center">
+    <ul class="inline-flex list-none divide-x w-auto divide-gray-100 mx-auto px-10">
+      {% for item in site.footer.pages %}
+        <li class="px-8">
+          <a href="{{ item.page.href }}">{{ item.page.cta }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <ul class="inline-flex w-full justify-between mt-12">
+      {% for item in site.footer.images %}
+        <li>
+          <a href="{{ item.image.href }}" rel="nofollow">
+            <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" />
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="mt-12">
+      <p>{{ site.footer.text }}</p>
+    </div>
+  </div>
+</footer>
