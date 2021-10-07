@@ -11,7 +11,7 @@
       {% for item in site.footer.images %}
         <li>
           <a href="{{ item.image.href }}" rel="nofollow">
-            <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" />
+            <img src="{{ item.image.src | relative_url }}" alt="{{ item.image.alt }}" />
           </a>
         </li>
       {% endfor %}
