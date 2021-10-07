@@ -3,6 +3,7 @@ description: >- # Isso aqui tem q pedir pro andré!
 baseurl: /blackfriday
 url: https://lucasbortolini.github.io
 logo: assets/images/logo.svg
+lang: pt-br
 
 # My variables
 
