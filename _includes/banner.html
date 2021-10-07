@@ -1,7 +1,7 @@
-<section class="bg-gray-800">
+<section class="bg-banner">
   <div class="container mx-auto md:px-24 flex flex-row items-center text-white justify-between">
-    <figure class="my-16 mr-16">
-      <img src="" alt="Eletrodomésticos">
+    <figure class=" mr-16">
+      <img src="{{ site.banner | relative_url }}" alt="Eletrodomésticos">
     </figure>
     <div class="mr-20 text-center">
       <h1 class="uppercase font-bold text-white text-md md:text-xl lg:text-4xl mb-4">A <span class="text-red">Black Friday </span><span class="block">está chegando!</span></h1>
@@ -14,13 +14,13 @@
       <div class="mx-1 my-3 w-64">
         <form method="post" action="http://3.212.170.97:3000/profiles/">
           <div class="mb-3">
-            <input required placeholder="Nome" name="george nelzo" type="text" id="name" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 text-gray-600 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent"/>
+            <input required placeholder="Nome" name="george nelzo" type="text" id="name" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white"/>
           </div>
           <div class="mb-4">
-            <input required placeholder="E-mail" name="georgenelzo@gmail.com" type="email" id="email" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 text-gray-600 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent"/>
+            <input required placeholder="E-mail" name="georgenelzo@gmail.com" type="email" id="email" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white"/>
           </div>
           <div>
-            <button type="submit" class="bg-red w-full text-white rounded-2xl py-2">Quero me Cadastrar</button>
+            <button type="submit" class="bg-gradient-to-r from-dark-red to-light-red w-full text-white rounded-2xl py-2">Quero me Cadastrar</button>
           </div>
         </form>
         <div class="w-64 mt-3">
