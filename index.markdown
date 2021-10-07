@@ -6,3 +6,5 @@ layout: default
 ---
 
 {% include banner.html %}
+{% include when.html %}
+{% include what.html %}
