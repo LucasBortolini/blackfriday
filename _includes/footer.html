@@ -1,13 +1,13 @@
 <footer class="bg-gray-900 text-gray-100">
-  <div class="container mx-auto md:px-24 pt-14 pb-20 flex flex-col items-center">
-    <ul class="inline-flex list-none divide-x w-auto divide-gray-100 mx-auto px-10">
+  <div class="container flex-wrap mx-auto flex flex-col items-center justify-center lg:justify-between py-8 px-8 lg:px-24 lg:pt-14 lg:pb-20">
+    <ul class="lg:inline-flex list-none divide-x w-auto divide-gray-100 mx-auto px-10">
       {% for item in site.footer.pages %}
-        <li class="px-8">
+        <li class="px-8 py-2 lg:py-0">
           <a href="{{ item.page.href | relative_url }}">{{ item.page.cta }}</a>
         </li>
       {% endfor %}
     </ul>
-    <ul class="inline-flex w-full justify-between mt-12">
+    <ul class="inline-flex w-full justify-between lg:mt-12">
       {% for item in site.footer.images %}
         <li>
           <a href="{{ item.image.href }}" target="_blank">

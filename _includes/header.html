@@ -1,14 +1,14 @@
 <header class="bg-black">
-  <div class="container mx-auto md:px-24 py-6 flex align-center justify-between">
+  <div class="container flex flex-wrap align-center justify-center lg:justify-between mx-auto lg:px-24 py-6">
     <div>
       <a href="{{ '/' | relative_url }}" class="text-red">
         <img src="{{ site.logo | relative_url }}" alt="BlackFriday.com.br" class="h-14" />
       </a>
     </div>
-    <nav class="inline-flex">
-      <ul class="inline-flex list-none">
+    <nav class="w-full lg:w-auto inline-flex px-12 lg:px-0 mt-4 lg:mt-0">
+      <ul class="w-full lg:w-80 inline-flex justify-between list-none">
         {% for item in site.header_pages %}
-        <li class="ml-14 my-auto">
+        <li class="my-auto">
           <a href="{{ item.page.href | relative_url }}" class="text-red">{{ item.page.cta }}</a>
         </li>
         {% endfor %}

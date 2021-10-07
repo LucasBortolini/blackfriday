@@ -1,9 +1,9 @@
 <section class="bg-black">
-  <div class="container mx-auto md:px-24 pt-10 pb-32 pt-20 flex align-center justify-between">
-    <div class="w-1/2 flex flex-col justify-end pb-6">
-      <img src="{{ site.what.image | relative_url }}" alt="Descontos em eletrodomésticos" class="pr-12 h-80" />
+  <div class="container flex align-center justify-between flex-wrap lg:flex-nowrap mx-auto px-8 py-8 lg:px-24 lg:py-12 lg:pb-32 lg:pt-20">
+    <div class="lg:w-1/2flex items-end mx-auto pb-6 mb-8 lg:mb-0">
+      <img src="{{ site.what.image | relative_url }}" alt="Descontos em eletrodomésticos" class="lg:h-80 px-4 lg:pl-0 lg:pr-12 w-full lg:w-auto" />
     </div>
-    <div class="w-4/6">
+    <div class="lg:w-4/6">
       <h2 class="uppercase font-bold text-white text-2xl text-md md:text-xl lg:text-4xl mb-4">O que significa <span class="text-red">BlackFriday?</span></h2>
       <hr class="border-b-2 border-red w-24 mb-16"/>
       {% for item in site.what.paragraphs %}

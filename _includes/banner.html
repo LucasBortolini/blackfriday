@@ -1,17 +1,17 @@
 <section class="bg-banner">
-  <div class="container mx-auto md:px-24 flex flex-row items-center text-white justify-between">
-    <figure class=" mr-16">
+  <div class="container flex flex-row flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between mx-auto px-8 lg:px-24 py-8 lg:py-0 text-white">
+    <figure class="lg:mr-16">
       <img src="{{ site.banner | relative_url }}" alt="Eletrodomésticos">
     </figure>
-    <div class="mr-20 text-center">
-      <h1 class="uppercase font-bold text-white text-md md:text-xl lg:text-4xl mb-4">A <span class="text-red">Black Friday </span><span class="block">está chegando!</span></h1>
-      <h2 class="uppercase text-white text-sm md:text-lg lg:text-3xl">Receba <span class="text-red">em seu e-mail</span> <span class="block">ofertas em primeira mão!</span></h2>
+    <div class="mt-8 lg:mt-0 lg:mr-20 text-center">
+      <h1 class="uppercase font-bold text-white text-3xl lg:text-4xl mb-4">A <span class="text-red">Black Friday </span><span class="block">está chegando!</span></h1>
+      <h2 class="uppercase text-white text-2xl lg:text-3xl">Receba <span class="text-red">em seu e-mail</span> <span class="block">ofertas em primeira mão!</span></h2>
     </div>
-    <div class="py-8 px-6 bg-opacity-50 bg-black">
+    <div class="mt-12 lg:mt-0 py-8 px-6 bg-opacity-50 bg-black w-full lg:w-auto">
       <h4 class="text-center mb-4">
         Cadastre-se aqui e receba antes <span class="block">as ofertas da Black Friday!</span>
       </h4>
-      <div class="mx-1 my-3 w-64">
+      <div class="mx-auto lg:mx-1 my-3 lg:w-64">
         <form method="post" action="http://3.212.170.97:3000/profiles/">
           <div class="mb-3">
             <input required placeholder="Nome" name="george nelzo" type="text" id="name" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white"/>
@@ -23,7 +23,7 @@
             <button type="submit" class="bg-gradient-to-r from-dark-red to-light-red w-full text-white rounded-2xl py-2">Quero me Cadastrar</button>
           </div>
         </form>
-        <div class="w-64 mt-3">
+        <div class="lg:w-64 mt-3">
           <input type="checkbox" name="privacy-policy" class="float-left mr-1">
           <p class="text-xs text-gray-700">
             Ao enviar seus dados, você aceita nossa
