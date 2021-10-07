@@ -9,7 +9,7 @@
       <ul class="inline-flex list-none">
         {% for item in site.header_pages %}
         <li class="ml-14 my-auto">
-          <a href="{{ item.page.href }}" class="text-red">{{ item.page.cta }}</a>
+          <a href="{{ item.page.href | relative_url }}" class="text-red">{{ item.page.cta }}</a>
         </li>
         {% endfor %}
       </ul>

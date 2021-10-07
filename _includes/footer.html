@@ -3,14 +3,14 @@
     <ul class="inline-flex list-none divide-x w-auto divide-gray-100 mx-auto px-10">
       {% for item in site.footer.pages %}
         <li class="px-8">
-          <a href="{{ item.page.href }}">{{ item.page.cta }}</a>
+          <a href="{{ item.page.href | relative_url }}">{{ item.page.cta }}</a>
         </li>
       {% endfor %}
     </ul>
     <ul class="inline-flex w-full justify-between mt-12">
       {% for item in site.footer.images %}
         <li>
-          <a href="{{ item.image.href }}" rel="nofollow">
+          <a href="{{ item.image.href | relative_url }}" rel="nofollow">
             <img src="{{ item.image.src | relative_url }}" alt="{{ item.image.alt }}" />
           </a>
         </li>
