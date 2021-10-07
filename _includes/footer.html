@@ -10,7 +10,7 @@
     <ul class="inline-flex w-full justify-between mt-12">
       {% for item in site.footer.images %}
         <li>
-          <a href="{{ item.image.href | relative_url }}" rel="nofollow">
+          <a href="{{ item.image.href }}" target="_blank">
             <img src="{{ item.image.src | relative_url }}" alt="{{ item.image.alt }}" />
           </a>
         </li>
