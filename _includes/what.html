@@ -1,0 +1,16 @@
+<section class="bg-black">
+  <div class="container mx-auto my-24 md:px-24 py-10 flex align-center justify-between">
+    <div class="w-1/2 flex justify-center">
+      <a href="{{ '/' | relative_url }}" class="text-red">
+        <img src="{{ site.what.image | relative_url }}" alt="BlackFriday.com.br" />
+      </a>
+    </div>
+    <div class="w-3/4">
+      <h2 class="uppercase font-bold text-white text-2xl text-md md:text-xl lg:text-4xl mb-4">O que significa <span class="text-red">BlackFriday?</span></h2>
+      <hr class="border-b-2 border-red w-24 mb-16"/>
+      {% for item in site.what.paragraphs %}
+      <p class="my-4 text-gray-400">{{ item }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
