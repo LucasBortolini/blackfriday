@@ -7,9 +7,9 @@
     </div>
     <nav class="w-full lg:w-auto inline-flex px-12 lg:px-0 mt-4 lg:mt-0">
       <ul class="w-full lg:w-80 inline-flex justify-between list-none">
-        {% for item in site.header_pages %}
+        {% for page in site.header.pages %}
         <li class="my-auto">
-          <a href="{{ item.page.href | relative_url }}" class="text-red">{{ item.page.cta }}</a>
+          <a href="{{ page.href | relative_url }}" class="text-red">{{ page.cta }}</a>
         </li>
         {% endfor %}
       </ul>
