@@ -9,6 +9,7 @@ sections:
   - banner
   - when
   - what
+  - faq
   - blog
 
 banner: assets/images/appliances.png
@@ -33,23 +34,25 @@ what:
     - Diferentemente dos Estados Unidos, a Black Friday no Brasil começou como um evento exclusivamente online que passou para o varejo físico e atualmente atinge desde o pequeno até o grande varejista.
 
 faq:
-  - question: Que dia acontecerá o Black Friday no Brasil? 
-    answer: Em 2021, o evento ocorre no dia 26 de Novembro, última sexta-feira do mês.
-  - question: Quem são os idealizadores do Black Friday no Brasil?
-    answer: A Black Friday chegou ao Brasil em 2011, com o portal Busca Descontos, e desde então cresce exponencialmente, batendo recorde de vendas ano a ano.
-  - question: O que é a Black Friday?
-    answer: A Black Friday é uma campanha de vendas que traz descontos relevantes em produtos de todas as categorias, como smartphones, notebooks, eletrodomésticos, TVs, roupas, calçados, livros e muito mais. A grande vantagem da Black Friday é aproveitar os altos descontos. Além da economia, você não passa pelo stress e cansaço de comprar tudo na última hora. Nada como aquela tranquilidade no fim do ano, né?
-  - question: O que é o Busca Descontos?
-    answer: Pioneiro em Cupons, Ofertas e Big Dates do Brasil, o Busca Descontos desde 2010 oferece para os e-consumidores de todo o país ofertas e cupons de descontos nos maiores e melhores lojistas. 
-      Também promove as datas mais importantes do comércio eletrônico, como Black Friday, Cyber Monday, Brasil Game Day, Boxing Week, Mega Saldão e Dia do Frete Grátis.
-  - question: Quais lojas estarão participando? As lojas físicas também participam?
-    answer: Confira todas nossas lojas participantes na home do nosso site www.blackfriday.com.br. Exceto por elas, não respondemos por atitudes de quaisquer outras lojas, sejam elas positivas ou negativas.
-  - question: Quais produtos terão desconto?
-    answer: Não é possível confirmar quais produtos específicos estarão em promoção, isso porque também depende exclusivamente das lojas participantes. A lista de itens com desconto estará disponível no dia do evento, tanto no nosso site quanto no site dos lojistas.
-  - question: Quais são as formas de pagamento?
-    answer: Isso depende única e exclusivamente da loja que você comprar seu produto. Teremos várias lojas participantes e cada uma tem suas próprias formas de pagamento.
-  - question: É possível receber ofertas com antecedência?
-    answer: Sim! Para receber as melhores ofertas de nossos parceiros com antecedência basta cadastrar seu email agora mesmo na nossa home www.blackfriday.com.br.
+  title: Tem alguma dúvida?
+  questions: 
+    - question: Que dia acontecerá o Black Friday no Brasil? 
+      answer: Em 2021, o evento ocorre no dia 26 de Novembro, última sexta-feira do mês.
+    - question: Quem são os idealizadores do Black Friday no Brasil?
+      answer: A Black Friday chegou ao Brasil em 2011, com o portal Busca Descontos, e desde então cresce exponencialmente, batendo recorde de vendas ano a ano.
+    - question: O que é a Black Friday?
+      answer: A Black Friday é uma campanha de vendas que traz descontos relevantes em produtos de todas as categorias, como smartphones, notebooks, eletrodomésticos, TVs, roupas, calçados, livros e muito mais. A grande vantagem da Black Friday é aproveitar os altos descontos. Além da economia, você não passa pelo stress e cansaço de comprar tudo na última hora. Nada como aquela tranquilidade no fim do ano, né?
+    - question: O que é o Busca Descontos?
+      answer: Pioneiro em Cupons, Ofertas e Big Dates do Brasil, o Busca Descontos desde 2010 oferece para os e-consumidores de todo o país ofertas e cupons de descontos nos maiores e melhores lojistas. 
+        Também promove as datas mais importantes do comércio eletrônico, como Black Friday, Cyber Monday, Brasil Game Day, Boxing Week, Mega Saldão e Dia do Frete Grátis.
+    - question: Quais lojas estarão participando? As lojas físicas também participam?
+      answer: Confira todas nossas lojas participantes na home do nosso site www.blackfriday.com.br. Exceto por elas, não respondemos por atitudes de quaisquer outras lojas, sejam elas positivas ou negativas.
+    - question: Quais produtos terão desconto?
+      answer: Não é possível confirmar quais produtos específicos estarão em promoção, isso porque também depende exclusivamente das lojas participantes. A lista de itens com desconto estará disponível no dia do evento, tanto no nosso site quanto no site dos lojistas.
+    - question: Quais são as formas de pagamento?
+      answer: Isso depende única e exclusivamente da loja que você comprar seu produto. Teremos várias lojas participantes e cada uma tem suas próprias formas de pagamento.
+    - question: É possível receber ofertas com antecedência?
+      answer: Sim! Para receber as melhores ofertas de nossos parceiros com antecedência basta cadastrar seu email agora mesmo na nossa home www.blackfriday.com.br.
 
 ---
 
