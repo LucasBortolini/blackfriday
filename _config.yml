@@ -18,7 +18,7 @@ author:
 header:
   pages:
     - cta: Cadastre-se
-      href: "#"
+      href: "#cadastro"
     - cta: Blog
       href: "#blog"
     - cta: Anuncie
@@ -27,7 +27,7 @@ header:
 footer:
   pages:
     - cta: Termos de Uso
-      href: https://www.blackfriday.com.br/static/tpl/frontend/Termos-de-Uso.pdf
+      href: /assets/termos-de-uso.pdf
     - cta: Política de Privacidade
       href: /politica-de-privacidade
     - cta: Perguntas Frequentes
