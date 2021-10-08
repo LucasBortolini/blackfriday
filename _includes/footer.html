@@ -7,7 +7,7 @@
         </li>
       {% endfor %}
     </ul>
-    <ul class="inline-flex w-full justify-between lg:mt-12">
+    <ul class="w-full inline-flex flex-col lg:flex-row lg:justify-between mt-8 lg:mt-12 gap-4 px-10 lg:px-0">
       {% for image in site.footer.images %}
         <li>
           <a href="{{ image.href }}" target="_blank">
@@ -16,7 +16,7 @@
         </li>
       {% endfor %}
     </ul>
-    <div class="mt-12 text-xs">
+    <div class="mt-8 lg:mt-12 text-xs">
       <p>{{ site.footer.text }}</p>
     </div>
   </div>
