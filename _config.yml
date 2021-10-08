@@ -21,7 +21,7 @@ footer:
     - cta: Política de Privacidade
       href: /politica-de-privacidade
     - cta: Perguntas Frequentes
-      href: "#faq"
+      href: /perguntas-frequentes
     - cta: Sala de Imprensa
       href: /sala-de-imprensa
     - cta: Anuncie
@@ -47,9 +47,8 @@ footer:
 collections:
   pages:
     output: true
-    permalink: /:path/
-    order:
-      - welcome.md
+  blog: 
+    output: true
 
 theme: minima
 

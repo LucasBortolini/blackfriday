@@ -8,11 +8,11 @@
       <hr class="border-b-2 border-white w-28 mb-16" />
     </div>
     <ul class="inline-flex flex-wrap w-full justify-center lg:justify-between gap-8 lg:gap-4 mb-8">
-      {% for item in site.pages %}
+      {% for post in site.blog %}
         <li>
-          <a href="{{ item.url | relative_url }}" class="flex flex-col align-center justify-between">
-            <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" class="w-60" />
-            <h6 class="w-60 uppercase text-white text-center text-sm mt-4 px-1">{{ item.title }}</h6>
+          <a href="{{ post.url | relative_url }}" class="flex flex-col align-center justify-between">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-60" />
+            <h6 class="w-60 uppercase text-white text-center text-sm mt-4 px-1">{{ post.title }}</h6>
           </a>
         </li>
       {% endfor %}

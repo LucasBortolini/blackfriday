@@ -12,6 +12,9 @@ layout: default
         <header class="text-2xl mb-6">
           <h1 class="font-regular">{{ page.title | escape }}</h1>
         </header>
+        {% if page.image %}
+          <img src="{{ site.url }}{{ page.image }}" alt="{{ page.title }}" class="w-full mb-4" />
+        {% endif %}
         <div class="text-gray-800">
           {{ content }}
         </div>
