@@ -1,24 +1,26 @@
-<section class="mx-auto px-8 py-8 lg:px-24 lg:py-24">
-  <div>
-    <h2 class="uppercase font-bold text-black text-2xl text-md md:text-xl lg:text-4xl mb-4">{{ page.faq.title }}</h2>
-    <hr class="border-b-2 border-blue w-24 mb-16"/>
-  </div>
-  <div class="w-full my-4">
-    <ul class="collapse-list -mx-4">
-      {% for question in page.faq.questions %}
-        <li>
-          <input class="collapse-open" type="checkbox" id="collapse-{{ forloop.index }}">
-          <label class="collapse-btn flex justify-between hover:bg-gray-100 p-4" for="collapse-{{ forloop.index }}">
-            <h6 class="text-black">{{ question.question }}</h6>
-            <img src="assets/images/chevron-down.svg" class="h-7 flex self-center">
-          </label>
-          <div class="collapse-painel">
-            <div class="collapse-inner">
-              {{ question.answer }}
+<section id="#faq">
+  <div class="container mx-auto px-8 py-8 lg:px-24 lg:py-24">
+    <div>
+      <h2 class="uppercase font-bold text-black text-2xl text-md md:text-xl lg:text-4xl mb-4">{{ page.faq.title }}</h2>
+      <hr class="border-b-2 border-blue w-24 mb-16"/>
+    </div>
+    <div class="w-full my-4">
+      <ul class="collapse-list -mx-4">
+        {% for question in page.faq.questions %}
+          <li>
+            <input class="collapse-open" type="checkbox" id="collapse-{{ forloop.index }}">
+            <label class="collapse-btn flex justify-between hover:bg-gray-100 p-4" for="collapse-{{ forloop.index }}">
+              <h6 class="text-black">{{ question.question }}</h6>
+              <img src="assets/images/chevron-down.svg" class="h-7 flex self-center">
+            </label>
+            <div class="collapse-painel">
+              <div class="collapse-inner">
+                {{ question.answer }}
+              </div>
             </div>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </section>
