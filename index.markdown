@@ -10,7 +10,6 @@ sections:
   - when
   - what
   - faq
-  - blog
 
 banner: assets/images/appliances.png
 
