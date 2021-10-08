@@ -7,11 +7,11 @@
         </li>
       {% endfor %}
     </ul>
-    <ul class="w-full inline-flex flex-col lg:flex-row lg:justify-between mt-8 lg:mt-12 gap-4 px-10 lg:px-0">
+    <ul class="w-full inline-flex flex-col lg:flex-row lg:justify-between mt-8 lg:mt-12 gap-8 px-10 lg:px-0">
       {% for image in site.footer.images %}
         <li>
           <a href="{{ image.href }}" target="_blank">
-            <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" />
+            <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" class="max-h-14" />
           </a>
         </li>
       {% endfor %}
