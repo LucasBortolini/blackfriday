@@ -9,7 +9,7 @@
       <ul class="w-full lg:w-80 inline-flex justify-between list-none">
         {% for page in site.header.pages %}
         <li class="my-auto">
-          <a href="{{ page.href | relative_url }}" class="text-red">{{ page.cta }}</a>
+          <a href="{{ site.baseurl }}{{ page.href }}" class="text-red">{{ page.cta }}</a>
         </li>
         {% endfor %}
       </ul>
