@@ -1,36 +1,38 @@
 <section id="banner" class="bg-banner">
-  <div class="container flex flex-row flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between mx-auto px-8 lg:px-24 py-8 lg:py-0 text-white">
-    <figure class="lg:mr-16">
+  <div class="container flex flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between mx-auto px-8 lg:px-24 py-8 lg:py-0 text-white">
+    <figure class="mt-8 lg:mt-0 lg:mr-16">
       <img src="{{ page.banner | relative_url }}" alt="Eletrodomésticos">
     </figure>
-    <div class="mt-8 lg:mt-0 lg:mr-20 text-center">
-      <h1 class="uppercase font-bold text-white text-3xl lg:text-4xl mb-4">A <span class="text-red">Black Friday </span><span class="block">está chegando!</span></h1>
-      <h2 class="uppercase text-white text-2xl lg:text-3xl">Receba <span class="text-red">em seu e-mail</span> <span class="block">ofertas em primeira mão!</span></h2>
-    </div>
-    <div class="mt-12 lg:mt-0 py-8 px-6 bg-opacity-50 bg-black w-full lg:w-auto">
-      <h4 class="text-center mb-4">
-        Cadastre-se aqui e receba antes <span class="block">as ofertas da Black Friday!</span>
-      </h4>
-      <div class="mx-auto lg:mx-1 my-3 lg:w-64">
-        <form id="cadastro" method="post" action="http://3.212.170.97:3000/profiles/">
-          <div class="mb-3">
-            <input required placeholder="Nome" name="profilesname" type="text" id="name" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"/>
-          </div>
-          <div class="mb-4">
-            <input required placeholder="E-mail" name="profilesemail" type="email" id="email" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"/>
-          </div>
-          <div>
-            <button type="submit" class="bg-gradient-to-r from-dark-red to-light-red w-full text-white rounded-2xl py-2">Quero me cadastrar</button>
-          </div>
-          <div class="lg:w-64 mt-3">
-            <input required type="checkbox" name="privacy-policy" class="float-left mr-1">
-            <p class="text-xs text-gray-700">
-              Ao enviar seus dados, você aceita nossa
-              <a class="underline text-red">Política de Privacidade</a>
-              além de receber nossas ofertas e publicidade enviado por Black Friday, Busca Descontos e nossos parceiros.
-            </p>
-          </div>
-        </form>
+    <div id="cadastro" class="flex flex-wrap lg:flex-nowrap items-center">
+      <div class="lg:mr-20 text-center">
+        <h1 class="uppercase font-bold text-white text-3xl lg:text-4xl mb-4">A <span class="text-red">Black Friday </span><span class="block">está chegando!</span></h1>
+        <h2 class="uppercase text-white text-2xl lg:text-3xl">Receba <span class="text-red">em seu e-mail</span> <span class="block">ofertas em primeira mão!</span></h2>
+      </div>
+      <div class="mt-6 lg:mt-0 py-8 px-6 bg-opacity-50 bg-black w-full lg:w-auto">
+        <h4 class="text-center mb-4">
+          Cadastre-se aqui e receba antes <span class="block">as ofertas da Black Friday!</span>
+        </h4>
+        <div class="mx-auto lg:mx-1 my-3 lg:w-64">
+          <form method="post" action="http://3.212.170.97:3000/profiles/">
+            <div class="mb-3">
+              <input required placeholder="Nome" name="profilesname" type="text" id="name" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"/>
+            </div>
+            <div class="mb-4">
+              <input required placeholder="E-mail" name="profilesemail" type="email" id="email" class="shadow appearance-none border rounded-2xl w-full py-2 px-3 border-grey-600 leading-tight focus:outline-none focus:shadow-outline bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"/>
+            </div>
+            <div>
+              <button type="submit" class="bg-gradient-to-r from-dark-red to-light-red w-full text-white rounded-2xl py-2">Quero me cadastrar</button>
+            </div>
+            <div class="lg:w-64 mt-3">
+              <input required type="checkbox" name="privacy-policy" class="float-left mr-1">
+              <p class="text-xs text-gray-700">
+                Ao enviar seus dados, você aceita nossa
+                <a class="underline text-red">Política de Privacidade</a>
+                além de receber nossas ofertas e publicidade enviado por Black Friday, Busca Descontos e nossos parceiros.
+              </p>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
