@@ -70,11 +70,13 @@ plugins:
   - jekyll-postcss
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-coffeescript
 
 postcss:
   cache: false
   
-sass:
+sass:  
+  style: compressed
   load_paths:
     - _sass
     - node_modules
