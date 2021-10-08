@@ -24,7 +24,7 @@ submit = (event) ->
     if contentType and contentType.indexOf('application/json') != -1
       return response.json().then (json) ->
         if !json.error
-          console.log('Ok')
+          alert('Cadastro Efetuado com Sucesso')
         return
     return
 
