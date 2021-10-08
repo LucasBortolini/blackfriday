@@ -1,17 +1,17 @@
 <footer class="bg-gray-900 text-gray-100">
   <div class="container flex-wrap mx-auto flex flex-col items-center justify-center lg:justify-between py-8 px-8 lg:px-24 lg:pt-14 lg:pb-20">
     <ul class="lg:inline-flex list-none divide-x w-auto divide-gray-100 mx-auto px-10">
-      {% for item in site.footer.pages %}
+      {% for page in site.footer.pages %}
         <li class="px-8 py-2 lg:py-0">
-          <a href="{{ item.page.href | relative_url }}">{{ item.page.cta }}</a>
+          <a href="{{ page.href | relative_url }}">{{ page.cta }}</a>
         </li>
       {% endfor %}
     </ul>
     <ul class="inline-flex w-full justify-between lg:mt-12">
-      {% for item in site.footer.images %}
+      {% for image in site.footer.images %}
         <li>
-          <a href="{{ item.image.href }}" target="_blank">
-            <img src="{{ item.image.src | relative_url }}" alt="{{ item.image.alt }}" />
+          <a href="{{ image.href }}" target="_blank">
+            <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" />
           </a>
         </li>
       {% endfor %}
