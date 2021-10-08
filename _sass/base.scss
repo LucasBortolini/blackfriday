@@ -8,6 +8,10 @@ body {
   justify-content: space-between;
 }
 
+h2 {
+  @apply font-bold text-lg mb-2;
+}
+
 .bg-banner {
   background-image: url("images/bgbanner.png");
 }
