@@ -32,6 +32,10 @@ what:
     - No Brasil, a Black Friday chegou em 2011 com o portal Busca Descontos, e desde então cresce exponencialmente, batendo recorde de vendas ano a ano.
     - Diferentemente dos Estados Unidos, a Black Friday no Brasil começou como um evento exclusivamente online que passou para o varejo físico e atualmente atinge desde o pequeno até o grande varejista.
 
+faq:
+  - question:
+    answer:
+
 ---
 
 {% for section in page.sections %}
