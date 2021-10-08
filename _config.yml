@@ -10,7 +10,7 @@ header:
     - cta: Cadastre-se
       href: "#"
     - cta: Blog
-      href: /blog
+      href: "#blog"
     - cta: Anuncie
       href: /anuncie
 
@@ -21,7 +21,7 @@ footer:
     - cta: Política de Privacidade
       href: /politica-de-privacidade
     - cta: Perguntas Frequentes
-      href: /perguntas-frequentes
+      href: "#faq"
     - cta: Sala de Imprensa
       href: /sala-de-imprensa
     - cta: Anuncie
