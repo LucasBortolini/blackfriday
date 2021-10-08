@@ -3,8 +3,6 @@ layout: page
 title:  Sala de Imprensa
 ---
 
-# Sala de Imprensa
-
 A Black Friday é uma campanha de vendas que traz descontos relevantes em produtos de todas as categorias, como smartphones, notebooks, eletrodomésticos, TVs, roupas, calçados, livros e muito mais.
 
 A grande vantagem da Black Friday é aproveitar os altos descontos e fazer antecipadamente as compras de Natal.

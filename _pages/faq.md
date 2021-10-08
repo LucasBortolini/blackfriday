@@ -4,9 +4,6 @@ title:  Perguntas Frequentes
 description: Tire as suas dúvidas e fique por dentro de todas as novidades da Black Friday 2021
 ---
 
-# Perguntas Frequentes
-
-
 A **Black Friday** está chegando! E mais uma vez, é hora de aproveitar ao máximo os melhores descontos do ano!
 
 Mas antes, é preciso tirar todas as dúvidas sobre o evento e sobre tudo o que acontece na data! Confira aqui quais são as principais dúvidas dos consumidores e se prepare!

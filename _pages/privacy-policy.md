@@ -3,9 +3,6 @@ layout: page
 title:  Política de Privacidade
 ---
 
-# Política de Privacidade
-
-
 A **BUSCA DESCONTOS SERVIÇOS DE MARKETING E PUBLICIDADE LTDA,** pessoa jurídica de direito privado, inscrita no CNPJ sob nº 011.818.144/0001-76,  proprietária dos sites www.buscadescontos.com.br e www.blackfriday.com.br (plataforma BLACKFRIDAY.COM.BR),  tem ciência da confiança depositada por seus Usuários em sua veiculação de ofertas e descontos, e respeita a privacidade dos seus Usuários e com o objetivo de que todos entendam claramente como são tratados os seus dados, apresenta a Política de Privacidade de sua plataforma digital que está em conformidade com as normas internacionais e nacionais de proteção de dados.
 
 Para utilizar a plataforma BLACKFRIDAY.COM.BR, o Usuário concorda Expressamente com o tratamento de seus dados, ratificando que está de acordo com os termos desta Política de Privacidade e com os Termos e Condições Gerais de Uso.
