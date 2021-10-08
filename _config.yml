@@ -1,9 +1,19 @@
 title: Black Friday 2021
+tagline: Black Friday 2021
 description: Black Friday 2021 - O primeiro e original do Brasil. As melhores promoções e ofertas de produtos das grandes marcas, em um único lugar.
 baseurl: /blackfriday
 url: https://lucasbortolini.github.io
 logo: assets/images/logo.svg
 lang: pt-br
+google_site_verification: -w3epTc9luAVsf7e1UsZjQKZkpyFFfQHircR4qXkJ8U
+google_analytics: G-RHKV7VL399
+
+
+author: 
+  - name: Leticia Sales
+    url: http://github.com/leticiasales
+  - name: Lucas Sales
+    url: http://github.com/LucasBortolini
 
 header:
   pages:
