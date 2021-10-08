@@ -2,8 +2,9 @@
 ---
 
 load = ->
-  cadastro = document.getElementById 'cadastro'
-  cadastro.addEventListener 'submit', submit
+  forms = document.getElementsByTagName 'form'
+  if forms.length == 1
+    forms[0].addEventListener 'submit', submit
 
 submit = (event) ->
   event.preventDefault()
