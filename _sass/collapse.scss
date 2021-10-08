@@ -1,0 +1,39 @@
+.collapse-list {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.collapse-open {
+  display: none;
+}
+
+.collapse-painel {
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height .1s,
+  visibility .3s,
+  opacity .3s;
+}
+
+.collapse-open:checked ~ .collapse-painel {
+  max-height: 100%;
+  opacity: 100;
+  visibility: visible
+}
+
+.collapse-list li {
+  margin-bottom: 0;
+}
+
+.collapse-list .collapse-btn {
+  cursor: pointer;
+  margin-bottom: 0;
+  font-weight: normal;
+  transition: background-color .2s ease;
+}
+
+.collapse-list .collapse-inner {
+  padding: 10px
+}
