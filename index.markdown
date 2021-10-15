@@ -9,8 +9,8 @@ sections:
   - banner
   - when
   - what
-  - blog
   - faq
+  - blog
 
 banner: assets/images/appliances.png
 
