@@ -2,20 +2,25 @@
 layout: default
 ---
 
-<section class="bg-gray-100">
-  <div class="container mx-auto px-8 py-8 lg:px-24 lg:py-12 text-gray-800">
-    <nav class="font-thin text-sm">
-      <a href="{{site.url}}" class="text-sm">Início</a><span class="mx-1">/</span> 
-      <span class="text-gray-400">{{ page.title }}</a>
-    </nav>
-    <article class="mt-8">
-        <header class="text-2xl mb-6">
-          <h1 class="font-regular">{{ page.title | escape }}</h1>
-        </header>
-        {% if page.image %}
-          <img src="{{ site.url }}{{ page.image }}" alt="{{ page.title }}" class="w-full mb-4" />
-        {% endif %}
-        {{ content }}
+<section class="bg-black bg-banner bg-no-repeat">
+  <div class="flex justify-center mx-auto py-4 lg:px-24">
+    <div class="w-3/4 h-24 bg-white">
+    </div>
+  </div>
+  <div class="container mx-auto px-8 lg:px-24 text-gray-800">
+    <article class="bg-white px-8">
+      <nav class="font-thin pt-8 text-sm">
+        <a href="{{site.url}}" class="text-sm">Início</a><span class="mx-1">/</span> 
+        <span class="text-gray-400">{{ page.title }}</a>
+      </nav>
+      <header class="text-2xl mb-6">
+        <h1 class="font-regular">{{ page.title | escape }}</h1>
+      </header>
+      {{ content }}
     </article>
+  </div>
+  <div class="flex justify-center mx-auto py-4 lg:px-24">
+    <div class="w-3/4 h-24 bg-white">
+    </div>
   </div>
 </section>
