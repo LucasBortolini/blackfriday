@@ -2,12 +2,18 @@
   <div class="container mx-auto px-8 lg:px-24 py-8 lg:py-24">
     <div>
       <div class="flex justify-between align-end mb-4">
-        <h2 class="uppercase font-bold text-white text-2xl text-md md:text-xl lg:text-4xl">Blog <span class="text-black">BlackFriday</span></h2>
+        <h2 class="uppercase font-bold text-white text-2xl text-md md:text-xl lg:text-4xl">
+          {% if page.layout == 'post' %}
+            Destaques
+          {% else %}
+            Blog <span class="text-black">BlackFriday</span>
+          {% endif %}
+        </h2>
         <a href="#" class="absolute lg:relative right-8 lg:right-0 -mb-6 lg:mb-0 uppercase text-black self-end text-sm">Ver todos os posts</a>
       </div>
       <hr class="border-b-2 border-white w-28 mb-16" />
     </div>
-    <ul class="inline-flex flex-wrap w-full justify-center lg:justify-between gap-8 lg:gap-4 mb-8">
+    <ul class="inline-flex flex-wrap w-full justify-center lg:justify-between gap-8 lg:gap-4 mb-8 px-10">
       {% for post in site.blog %}
         <li>
           <a href="{{ post.url | relative_url }}" class="flex flex-col align-center justify-between">
