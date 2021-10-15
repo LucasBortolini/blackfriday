@@ -20,6 +20,7 @@ submit = (event) ->
     method: form.method
     body: JSON.stringify(value)
   ).then (response) ->
+    form.reset()
     contentType = response.headers.get('content-type')
     if contentType and contentType.indexOf('application/json') != -1
       return response.json().then (json) ->
