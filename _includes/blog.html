@@ -9,7 +9,11 @@
             Blog <span class="text-black">BlackFriday</span>
           {% endif %}
         </h2>
-        <a href="#" class="absolute lg:relative right-8 lg:right-0 -mb-6 lg:mb-0 uppercase text-black self-end text-sm">Ver todos os posts</a>
+        {% if page.layout == 'post' %}
+
+        {% else %}
+          <a href="#" class="absolute lg:relative right-8 lg:right-0 -mb-6 lg:mb-0 uppercase text-black self-end text-sm">Ver todos os posts</a>
+        {% endif %}
       </div>
       <hr class="border-b-2 border-white w-28 mb-16" />
     </div>
