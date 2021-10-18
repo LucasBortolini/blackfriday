@@ -54,6 +54,28 @@ footer:
       alt: Brasil Game Day
   text: O Busca Descontos não vende produtos, é um site gratuito para os internautas. Como um agregador de ofertas não podemos garantir o preço e a disponibilidade das ofertas. As imagens são meramente ilustrativas. Caso haja diferença de preço ou descrição do produto entre o site do Busca Descontos e o site da loja, a condição válida e praticada será a do site do lojista. Sempre confira o preço e as condições diretamente no site da loja. Veja também as regras de entrega gratuita, parcelamento e política de vendas no site do lojista. Asofertas, condições de venda e preços dos varejistas podem ser alteradas ou interrompidas a qualquer momento, sem aviso prévio. Confira sempre o preço na página do produto da loja direcionada antes de efetuar a compra. A entrega do pedido é condicionada a disponibilidade do estoque do lojista e não está sob o controle dasoperações do buscadescontos.com.br.
 
+categories:
+  - Alimentos e bebidas
+  - Automotivo
+  - Beleza e saúde
+  - Brinquedos
+  - Casa e Decoração
+  - Criança e Bebê
+  - Cultura
+  - Eletrodomésticos
+  - Eletrônicos
+  - Esportes e Lazer
+  - Financeiro
+  - Fotografia
+  - Games
+  - Informática
+  - Moda
+  - Pets
+  - Serviços
+  - Smartphones
+  - Televisões
+  - Viagens
+
 collections:
   pages:
     output: true
