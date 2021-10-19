@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  Perguntas Frequentes
 permalink: /perguntas-frequentes/
 description: Tire as suas dúvidas e fique por dentro de todas as novidades da Black Friday 2021
