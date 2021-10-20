@@ -35,7 +35,7 @@ permalink: /anuncie
       </textarea>
     </div>
     <div class="hidden">
-      <input type="required" name="profilessource" value="prelaunch" />
+      <input type="required" name="advertisesource" value="prelaunch" />
     </div>
     <div class="flex justify-center pt-4">
       <button type="submit" class="py-2 px-12 bg-gradient-to-r from-dark-red to-light-red text-white rounded-2xl py-2 hover:opacity-80">Enviar</button>
