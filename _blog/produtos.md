@@ -2,6 +2,7 @@
 layout: post
 title: Produtos que serão sucesso de vendas na Black Friday 2021
 permalink: /blog/produtos
+date: 18/10/2021
 image: /assets/images/produtos.png
 ---
 

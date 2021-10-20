@@ -2,6 +2,7 @@
 layout: post
 title: Black Friday Viagens - Sua viagem dos sonhos por um preço incrível
 permalink: /blog/viagens
+date: 19/10/2021
 image: /assets/images/viagens.png
 ---
 
