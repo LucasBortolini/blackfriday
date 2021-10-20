@@ -20,14 +20,15 @@ layout: black
     <h4 class="font-bold text-black">Outras postagens</h4>
   </header>
   <ul class="mt-6">
-    {% for post in site.blog %}
+    {% assign posts = site.blog | reverse %}
+    {% for post in posts limit:4 %}
       {% if post.title != page.title %}
         <li class="mb-8">
           <a href="{{ post.url | relative_url }}" class="flex flex-col align-center justify-between bg-black hover:bg-light-red">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full" />
-            <div class="flex flex-col justify-between gap-4 py-4 h-44 px-4">
-              <h6 class="w-60 text-white text-sm pr-4">{{ post.title }}</h6>
-              <h7 class="font-thin opacity-20 text-white">data</h7>
+            <div class="flex flex-col justify-between gap-4 py-4 h-32 px-4">
+              <h6 class="w-60 text-white text-sm pr-4 line-clamp-3">{{ post.title }}</h6>
+              <h7 class="font-thin opacity-20 text-white">{{ post.date | date: "%d/%m/%y"}}</h7>
             </div>
           </a>
         </li>
