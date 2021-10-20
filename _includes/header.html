@@ -7,10 +7,10 @@
     </div>
     <nav class="w-full lg:w-auto inline-flex px-12 lg:px-0 mt-4 lg:mt-0">
       <ul class="w-full lg:w-80 inline-flex justify-between list-none">
-        {% for page in site.header.pages %}
-        <li class="my-auto">
-          <a href="{{ site.url }}{{ site.base_url }}{{ page.href }}" class="text-red hover:text-white">{{ page.cta }}</a>
-        </li>
+        {% for header_page in site.header.pages %}
+          <li class="my-auto">
+            <a href="{{ site.url }}{{ site.base_url }}{{ header_page.href }}" class="hover:text-white {% if page.permalink == header_page.href %}text-white{% else %}text-red{% endif %}">{{ header_page.cta }}</a>
+          </li>
         {% endfor %}
       </ul>
     </nav>

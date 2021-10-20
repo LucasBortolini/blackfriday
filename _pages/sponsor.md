@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Anuncie no Black Friday
-permalink: /anuncie/
+permalink: /anuncie
 
 ---
 
 <section>
-  <form method="post" action="http://3.212.170.97:3000/advertise/" class="block max-w-xl pb-8">
+  <form data-feedback="Mensagem enviada com sucesso! Agradecemos pelo interesse. Em breve nossa equipe comercial entrará em contato com sua empresa. Obrigado." method="post" action="http://3.212.170.97:3000/advertise/" class="block max-w-xl pb-8">
     <div>
       <label class="block font-light tracking-wide text-gray-800 mb-2" for="grid-first-name">
         Nome:
