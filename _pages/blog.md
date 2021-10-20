@@ -8,7 +8,7 @@ description: Tire as suas dúvidas e fique por dentro de todas as novidades da B
 <div class="w-full">
   <div class="flex text-center flex-col align-center">
     <h1 class="uppercase font-bold text-red text-2xl text-md md:text-xl lg:text-4xl">{{ page.title }}</h1>
-    <hr class="border self-center border-red w-52 mt-4" />
+    <hr class="border-2 self-center border-red w-52 mt-4" />
   </div>
   {% assign post = site.blog.last %}
   <a href="{{ post.url | relative_url }}" class="hover:opacity-80">
