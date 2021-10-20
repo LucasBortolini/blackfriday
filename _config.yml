@@ -19,7 +19,7 @@ header:
     - cta: Cadastre-se
       href: "#cadastro"
     - cta: Blog
-      href: "#blog"
+      href: /blog
     - cta: Anuncie
       href: /anuncie
 
@@ -84,6 +84,7 @@ collections:
 theme: minima
 
 plugins:
+  - jekyll-feed
   - jekyll-postcss
   - jekyll-seo-tag
   - jekyll-sitemap
