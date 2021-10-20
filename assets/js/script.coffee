@@ -25,7 +25,7 @@ submit = (event) ->
     if contentType and contentType.indexOf('application/json') != -1
       return response.json().then (json) ->
         if !json.error
-          alert('Cadastro Efetuado com Sucesso!')
+          alert(form.dataset.feedback)
         return
     return
 
