@@ -1,0 +1,61 @@
+---
+layout: post
+title: Black Friday - O que compensa comprar nesta data
+permalink: /blog/compensa
+date: 16/10/2021
+image: /assets/images/compensa.png
+---
+
+Conhecida pelos descontos no varejo, a Black Friday se tornou uma dos dias mais importantes para grandes varejistas e clientes. Neste ano, a Black Fridar acontecerá no dia 26 de novembro.
+
+
+Mas atente-se: nem sempre os produtos mais desejados possuem os melhores descontos.
+
+
+Por isso, é importante se programar.
+
+
+**Mas afinal, o que vale a pena comprar na Black Friday?**
+
+
+Conforme pesquisa feita pela empresa especializada em SEO para negócios digitais Conversion, os produtos mais buscados na Black Friday 2020 foram os **eletrônicos e eletrodomésticos,** citados por 60% dos entrevistados. Os celulares eram desejados por 59% dos consumidores. Artigos de moda e acessórios eram buscados por 47% das pessoas.
+
+
+Em 2020, para ajudar os consumidores na escolha dos produtos que obtiveram desconto efetivo na Black Friday, a Confederação Nacional do Comércio (CNC) estudou a variação de preços no decorrer de 40 dias encerrados em 15 de novembro (mais ou menos duas semanas antes de o evento começar no ano passado).
+
+
+Todos os dias foi realizada a coleta dos preços de mais de dois mil itens agrupados em 48 categorias. O resultado da análise apontou quais itens têm maior probabilidade de receberem descontos efetivos com base na variação positiva ou negativa dos valores dos produtos.
+Os produtos que sofreram variação negativa nos preços têm maior probabilidade de desconto real. São eles:
+
+
+• Console de videogame: -19%
+• Notebook: -17%
+• Games PC: -14%
+• Calça Masculina: -13%
+• Aspirador de pó e água: -11%
+• Smart TV Box: -10%
+• Tênis: -8%
+• Bolsa: -6%
+• Sapato Masculino: -6%
+• Purificador de água/Filtro: -5%
+• Smartwatch: -5%
+• Micro-ondas: -4%
+• Monitor: -4%
+
+
+Os produtos que sofreram variação positiva nos preços têm menor probabilidade de desconto real:
+
+
+• Bicicleta: 22%
+• Colchão: 21%
+• Camisas de Clubes de Futebol: 17%
+• Joystick: 15%
+• Óculos de Sol: 10%
+• Capa para Smartphone: 9%
+• Móveis para Cozinha: 8%
+• Patins: 8%
+• Cafeteira Elétrica: 7%
+• Skate/Hoverboard: 6%
+• Ar-condicionado: 6%
+• Fogão: 5%
+• Lavadora de Roupas: 5%
