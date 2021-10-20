@@ -1,41 +1,27 @@
 ---
-layout: default
+layout: black
 ---
 
-<div class="bg-black bg-banner bg-no-repeat">
-  <div class="flex justify-center mx-auto py-4 lg:px-24">
-    <div class="w-3/4 h-24 bg-white">
-    </div>
-  </div>
-  <div class="container mx-auto px-8 lg:px-24 text-gray-800">
-    <div class="flex flex-wrap justify-center lg:flex-nowrap bg-white px-8 py-8 gap-32">
-      <article class="lg:w-3/4">
-        <nav class="font-thin text-sm">
-          <a href="{{site.url}}" class="text-sm">Início</a><span class="mx-1">/</span> 
-          <span class="text-gray-400">{{ page.title }}</a>
-        </nav>
-        <header class="text-2xl mb-6">
-          <h1 class="font-regular mt-12">{{ page.title | escape }}</h1>
-        </header>
-        {{ content }}
-      </article>
-      <aside class="float-right lg:mt-16 lg:w-1/4">
-        <a href="https://www.blackfriday.com.br/assets/docs/Midia-Kit-BlackFriday-2019.pdf">
-          <button class="bg-gradient-to-r from-red to-dark-red border border-transparent hover:opacity-80 w-64 text-white rounded-2xl py-2">Veja aqui nosso mídia kit</button>
-        </a>
-        <hr class="border-b-2 border-red w-24 mt-12"/>
-        <ul class="list-none mx-auto">
-          {% for category in site.site_categories %}
-            <li class="hover:text-gray-600">
-              <a href="#">{{ category }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </aside>
-    </div>
-  </div>
-  <div class="flex justify-center mx-auto py-4 lg:px-24">
-    <div class="w-3/4 h-24 bg-white">
-    </div>
-  </div>
-</div>
+<article class="lg:w-3/4 max-w-screen-sm">
+  <nav class="font-thin text-sm">
+    <a href="{{site.url}}" class="text-sm">Início</a><span class="mx-1">/</span> 
+    <span class="text-gray-400">{{ page.title }}</span>
+  </nav>
+  <header class="text-2xl mb-6">
+    <h1 class="font-regular mt-12">{{ page.title | escape }}</h1>
+  </header>
+  {{ content }}
+</article>
+<aside class="float-right lg:mt-16 lg:w-1/4">
+  <a href="https://www.blackfriday.com.br/assets/docs/Midia-Kit-BlackFriday-2019.pdf">
+    <button class="bg-gradient-to-r from-red to-dark-red border border-transparent hover:opacity-80 w-64 text-white rounded-2xl py-2">Veja aqui nosso mídia kit</button>
+  </a>
+  <hr class="border-b-2 border-red w-24 mt-12"/>
+  <ul class="list-none mx-auto">
+    {% for category in site.site_categories %}
+    <li class="hover:text-gray-600">
+      <a href="#">{{ category }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>
