@@ -12,13 +12,13 @@ description: Tire as suas dúvidas e fique por dentro de todas as novidades da B
   </div>
   {% assign post = site.blog.last %}
   <a href="{{ post.url | relative_url }}" class="hover:opacity-80">
-    <div class="p-4 bg-gray-200 flex my-8 flex-wrap lg:flex-nowrap">
-      <div class="w-80">
+    <div class="bg-gray-200 my-8 grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
+      <div class="lg:col-span-1">
         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
       </div>
-      <div class="pl-4 max-w-2xl">
-        <h2 class="text-gray-800 text-2xl">{{ post.title }}</h2>
-        <p class="mt-8 line-clamp-2">{{ post.content }}</p>
+      <div class="lg:col-span-2">
+        <h2 class="text-gray-800 text-xl lg:text-2xl">{{ post.title }}</h2>
+        <p class="line-clamp-3">{{ post.content }}</p>
       </div>
     </div>
   </a>
