@@ -5,7 +5,6 @@ permalink: /anuncie/
 
 ---
 
-
 <section>
   <form method="post" action="http://3.212.170.97:3000/advertise/" class="block max-w-xl pb-8">
     <div>
@@ -34,6 +33,9 @@ permalink: /anuncie/
       </label>
       <textarea name="advertisemessage" type="text" class="appearance-none resize-none block w-full text-gray-700 border border-gray-200 shadow-inner rounded-xl py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 focus:shadow-focus" rows="5" cols="33">
       </textarea>
+    </div>
+    <div class="hidden">
+      <input type="required" name="profilessource" value="prelaunch" />
     </div>
     <div class="flex justify-center pt-4">
       <button type="submit" class="py-2 px-12 bg-gradient-to-r from-dark-red to-light-red text-white rounded-2xl py-2 hover:opacity-80">Enviar</button>
