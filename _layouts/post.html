@@ -23,8 +23,7 @@ layout: black
     <h4 class="font-bold text-black">Outras postagens</h4>
   </header>
   <ul class="mt-6">
-    {% assign posts = site.blog | reverse %}
-    {% for post in posts limit:4 %}
+    {% for post in site.posts limit:4 %}
       {% if post.title != page.title %}
         <li class="mb-8">
           <a href="{{ post.url | relative_url }}" class="flex flex-col align-center justify-between bg-black hover:bg-light-red">

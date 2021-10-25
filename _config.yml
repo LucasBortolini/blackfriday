@@ -78,8 +78,6 @@ site_categories:
 collections:
   pages:
     output: true
-  blog: 
-    output: true
 
 theme: minima
 

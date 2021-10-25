@@ -16,8 +16,7 @@
       <hr class="border-b-2 border-white w-28 mb-16" />
     </div>
     <ul class="inline-flex flex-wrap w-full justify-center lg:justify-between gap-8 lg:gap-4 mb-8">
-      {% assign posts = site.blog | reverse %}
-      {% for post in posts limit:4 %}
+      {% for post in site.posts limit:4 %}
         <li>
           <a href="{{ post.url | relative_url }}" class="flex flex-col align-center justify-between bg-black lg:bg-transparent hover:bg-black">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-60" />
