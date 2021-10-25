@@ -2,7 +2,6 @@
 layout: post
 title: Black Friday e Home Office - Por que essa pode ser a combinação perfeita
 permalink: /blog/home-office
-date: 13/10/2021
 image: /assets/images/home-office.png
 ---
 

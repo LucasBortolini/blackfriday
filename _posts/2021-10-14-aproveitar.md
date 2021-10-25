@@ -2,7 +2,6 @@
 layout: post
 title: Como aproveitar a Black Friday 2021 da melhor forma
 permalink: /blog/aproveitar
-date: 14/10/2021
 image: /assets/images/aproveitar.png
 ---
 
