@@ -10,7 +10,7 @@ description: Tire as suas dúvidas e fique por dentro de todas as novidades da B
     <h1 class="uppercase font-bold text-red text-2xl text-md md:text-xl lg:text-4xl">{{ page.title }}</h1>
     <hr class="border-2 self-center border-red w-52 mt-4" />
   </div>
-  {% assign post = site.posts.last %}
+  {% assign post = site.posts.first %}
   <a href="{{ post.url | relative_url }}" class="hover:opacity-80">
     <div class="bg-gray-200 my-8 grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
       <div class="lg:col-span-1">

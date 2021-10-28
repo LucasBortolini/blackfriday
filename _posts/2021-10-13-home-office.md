@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Black Friday e Home Office - Por que essa pode ser a combinação perfeita
-permalink: /blog/home-office
+permalink: /blog/black-friday-e-home-office-por-que-essa-pode-ser-a-combinacao-perfeita.html
 image: /assets/images/home-office.png
+description: O Home Office se tornou um modelo de trabalho adotado pela maior parte das empresas.
 ---
 
 O Home Office se tornou um modelo de trabalho adotado pela maior parte das empresas.
