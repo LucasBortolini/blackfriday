@@ -8,7 +8,9 @@ banner-top: assets/images/BannerEsquentaTop.png
 banner-bt: assets/images/BannerEsquentaBottom.png
 lang: pt-br
 google_site_verification: -w3epTc9luAVsf7e1UsZjQKZkpyFFfQHircR4qXkJ8U
-google_analytics: G-RHKV7VL399
+google:
+  tag_manager:
+    container_id: GTM-WG8STH8
 
 author: 
   - name: Leticia Sales
