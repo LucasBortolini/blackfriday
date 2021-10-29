@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-postcss", "~> 0.5"
   gem "jekyll-sitemap"
   gem "jekyll-coffeescript"
+  gem "jekyll-google-tag-manager"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
