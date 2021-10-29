@@ -4,6 +4,8 @@ description: Black Friday 2021 - O primeiro e original do Brasil. As melhores pr
 baseurl: /
 url: https://www.blackfriday.com.br
 logo: assets/images/logo.svg
+banner-top: assets/images/BannerEsquentaTop.png
+banner-bt: assets/images/BannerEsquentaBottom.png
 lang: pt-br
 google_site_verification: -w3epTc9luAVsf7e1UsZjQKZkpyFFfQHircR4qXkJ8U
 google_analytics: G-RHKV7VL399
